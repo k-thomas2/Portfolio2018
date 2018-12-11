@@ -3,6 +3,7 @@ body{
 }
 h2{
 	font-family: 'Pompiere', cursive;
+	text-shadow: 3px 3px 2px #1b1d1f;
 }
 p{
 	font-family: 'Raleway', sans-serif;
