@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Elsie+Swash+Caps|Open+Sans+Condensed:300|Pompiere|Raleway|Srisakdi" rel="stylesheet">	
+	<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<!--CSS Main-->
+	    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+		<!--NavBar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-none">
+		<a class="navbar-brand text-light" href="index.html">Kaitlyn Thomas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-light" href="Kates Portfolio.html">About</a>
+      <a class="nav-item nav-link text-light" href="Kates Projects.html">Projects</a>
+      <a class="nav-item nav-link text-light" href="Kates Skills.html">Skills</a>
+		<a class="nav-item nav-link text-light" href="Kates Experience.html">Experience</a>
+		<a class="nav-item nav-link text-light" href="Kates Contact info.html">Contact</a>
+    </div>
+  </div>
+</nav>
+	
+	
+	
+</body>
+	<!--Bootstrap JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	   <!-- Contact Section -->
+        <section id="contact"></section>
+        <h1>Contact Section</h1>
+        <div class="container">
+                <h2 class="text-center text-uppercase">Contact Me</h2>
+                <div class="row">
+                  <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Your Name"
+                          id="name"
+                          required
+                          data-validation-required-message="Please enter your name"
+                          name="name"
+                          >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Email Address</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Your Email"
+                          id="email"
+                          required
+                          data-validation-required-message="Please enter your email"
+                          name="_replyto"
+                        >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          rows="7"
+                          placeholder="Your Message"
+                          id="message"
+                          required
+                          data-validation-required-message="Please leave a message"
+                          name="message"
+                        ></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-lg btn-black">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+	<footer class="text-center text-light"> &copy; Kaitlyn Thomas 2018 | <i class="fab fa-behance"></i> | <i class="fab fa-codepen"></i> | <i class="fab fa-deviantart"></i> | <i class="fab fa-github"></i> | <i class="fab fa-linkedin"></i> </footer>
+
+</html>

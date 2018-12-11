@@ -1,0 +1,14 @@
+:root{
+    --basered: #982A2D;
+    --darkred: #470002;
+    --litered: #C25558;
+    --baseteal: #1A5D5A;
+    --darkteal: #002B29;
+    --liteteal: #347774;
+    --basegreen: #6E9027;
+    --litegreen: #96B750;
+    --darkgreen: #2D4300;
+
+    --font-1: font-family: 'Shadows Into Light', cursive;
+    --font-2: font-family: 'Abel', sans-serif;
+}
