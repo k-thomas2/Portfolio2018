@@ -2,6 +2,9 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 2px 2px 3px #1b1d1f;
 }
+.navbar-nav{
+	text-align: right;
+}
 .nav-item{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 2px 2px 3px #1b1d1f;

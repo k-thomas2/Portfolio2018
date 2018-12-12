@@ -11,7 +11,9 @@ h3{
 }
 p{
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
-img{
-	align-content: center;
+img.center {
+    display: block;
+    margin: 0 auto;
 }
