@@ -2,3 +2,12 @@ footer{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 2px 2px 3px #1b1d1f;
 }
+a:link{
+	color: #E2dfdf;
+}
+a:visited{
+	color: #081322;
+}
+a:hover{
+	color: #7790AD;
+}
