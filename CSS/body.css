@@ -36,3 +36,17 @@ button{
 	padding-right: 3.5px;
 	border-radius: 10px;
 }
+.carousel-indicators{
+	position: absolute;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.carousel{
+	align-content: center;
+	align-items: center;
+}
+img{
+	align-content: center;
+	align-items: center;
+}
