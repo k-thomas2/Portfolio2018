@@ -1,5 +1,7 @@
 body{
     background-color: #3B5D76;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 h2{
 	font-family: 'Pompiere', cursive;
@@ -21,6 +23,10 @@ button{
 	align-content: center;
 }
 .col-md-4{
+	align-content: center;
+	text-align: center;
+}
+.card-body{
 	align-content: center;
 	text-align: center;
 }
