@@ -30,3 +30,9 @@ button{
 	align-content: center;
 	text-align: center;
 }
+.card-img-top{
+	padding-top: 3.5px;
+	padding-left: 3.5px;
+	padding-right: 3.5px;
+	border-radius: 10px;
+}
