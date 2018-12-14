@@ -1,3 +1,8 @@
-button{
+body{
+	align-content: center;
+}
+
+.btn-outline-light{
+	position: relative;
 	align-content: center;
 }
