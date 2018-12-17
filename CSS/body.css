@@ -14,6 +14,8 @@ h3{
 p{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	letter-spacing: 1.5px;
+	color: black;
 }
 img.center {
     display: block;
