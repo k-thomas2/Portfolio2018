@@ -1,5 +1,5 @@
 body{
-    background-color: #3B5D76;
+    background-color: #d1d4db;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-repeat: no-repeat;
@@ -7,11 +7,10 @@ body{
 }
 h2{
 	font-family: 'Pompiere', cursive;
-	text-shadow: 3px 3px 2px #1b1d1f;
+	
 }
 h3{
 	font-family: 'Pompiere', cursive;
-	text-shadow: 3px 3px 2px #1b1d1f;
 }
 p{
 	font-family: 'Raleway', sans-serif;
