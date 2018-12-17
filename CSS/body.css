@@ -10,6 +10,7 @@ h1{
 	font-style: oblique;
 	font-stretch: extra-expanded;
 	font-size: 3em;
+	text-shadow: 12px 12px 3 black;
 
 }
 h2{
