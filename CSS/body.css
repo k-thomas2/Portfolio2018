@@ -6,9 +6,10 @@ body{
 	background-size: cover;
 }
 h1{
-	font-family: 'Major Mono Display', monospace;
+	font-family: 'Cinzel Decorative', cursive;
 	font-style: oblique;
 	font-stretch: extra-expanded;
+	font-size: 3em;
 
 }
 h2{
