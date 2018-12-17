@@ -2,6 +2,8 @@ body{
     background-color: #3B5D76;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 h2{
 	font-family: 'Pompiere', cursive;
@@ -16,6 +18,7 @@ p{
 	text-align: center;
 	letter-spacing: 1.5px;
 	color: black;
+	font-size: 1em;
 }
 img.center {
     display: block;
@@ -38,10 +41,6 @@ button{
 	padding-right: 3.5px;
 	border-radius: 10px;
 }
-.btn{
-	float: inherit;
-	position: relative;
+.container{
 	align-content: center;
-	align-items: center;
-	
 }

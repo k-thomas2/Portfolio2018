@@ -1,13 +1,18 @@
 .navbar-brand{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 2px 2px 3px #1b1d1f;
+	font-size: 1.75em;
+	word-spacing: 5px;
 }
 .navbar-nav{
 	text-align: right;
+	font-size: 1.35em;
+	word-spacing: 25px;
 }
 .nav-item{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 2px 2px 3px #1b1d1f;
+	word-spacing: 15px;
 }
 navbar:hover{
 	color: white;
