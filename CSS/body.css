@@ -73,6 +73,7 @@ button{
 	padding-right: 3.5px;
 	border-radius: 10px;
 }
-.container{
-
+img{
+	max-height: 25em;
+	border-radius: 19%;
 }
